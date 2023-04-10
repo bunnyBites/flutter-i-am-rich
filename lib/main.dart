@@ -5,12 +5,15 @@ void main() {
     MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.deepPurple,
+          backgroundColor: Colors.deepOrange,
           title: Center(
             child: Text("I am Rich"),
           ),
         ),
-        backgroundColor: Colors.deepPurple.shade100,
+        backgroundColor: Colors.grey.shade800,
+        body: Center(
+          child: Image.asset('images/diamond.png'),
+        ),
       ),
     ),
   );
